@@ -1,0 +1,19 @@
+# Javascript Node CircleCI 2.0 configuration file
+version: 2
+jobs:
+  build:
+    docker:
+      # build the image with docker
+      # specify the version you desire here
+      - image: circleci/node:9.10.1
+
+    working_directory: ~/repo
+
+    steps:
+      - run: yarn install
+      # run tests!
+      - run: yarn test
+
+
+
+
