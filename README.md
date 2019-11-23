@@ -9,6 +9,13 @@ My first CI practice with CircleCi and unit testing with Jest.
 
 ### [Jest](https://facebook.github.io/jest/)
 
+### Git Hook
+
+> Automatically run test before commit/push
+
+* [observing/pre-commit: Automatically installs a git pre-commit script in your git repository which runs your `npm test` on pre-commit](https://github.com/observing/pre-commit)
+* [typicode/husky: 🐶 Git hooks made easy](https://github.com/typicode/husky)
+
 ## Resources
 
 ### Youtube Videos
